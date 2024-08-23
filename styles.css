@@ -1,0 +1,138 @@
+/* Estilo geral */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7;
+    color: #333;
+}
+
+header {
+    background-color: #D8BFD8; /* Lilás */
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 3em;
+    color: #fff;
+    margin: 0;
+}
+
+/* Navegação */
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Estilo da seção principal */
+.intro {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+}
+
+.img-principal {
+    width: 45%; /* Aumenta a imagem principal para 45% da largura da tela */
+    height: auto;
+    margin-right: 30px; /* Espaço entre a imagem e o texto */
+}
+
+.intro p {
+    font-size: 1.2em;
+    max-width: 600px;
+    line-height: 1.6;
+    text-align: justify;
+}
+
+/* Estilo do botão de contato */
+.contato {
+    text-align: center;
+    margin: 40px 0;
+}
+
+.contato a {
+    display: inline-block;
+    background-color: #D8BFD8;
+    color: white;
+    padding: 15px 25px;
+    text-decoration: none;
+    font-size: 1.2em;
+    border-radius: 5px;
+}
+
+.contato a:hover {
+    background-color: #C5A3C5;
+}
+
+/* Estilo para a galeria de fotos */
+.galeria .fotos {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Define várias colunas */
+    gap: 20px; /* Espaço entre as fotos */
+}
+
+.galeria .fotos img {
+    width: 100%; /* As fotos irão ocupar toda a largura da coluna */
+    height: auto;
+    border-radius: 10px;
+}
+
+.galeria h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.galeria p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+}
+
+.fotos {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+}
+
+.fotos img {
+    width: 40%; /* Tamanho ajustado para as imagens da galeria */
+    height: auto;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+
+/* Estilo do rodapé */
+footer {
+    text-align: center;
+    background-color: #D8BFD8;
+    padding: 20px 0;
+    margin-top: 100px; /* Adiciona espaço no topo para mover o rodapé mais para baixo */
+    position: relative;
+}
+
+.detalhes-inferiores {
+    font-size: 14px;
+    color: #333;
+    margin-top: 10px;
+}
+
+footer p {
+    color: #fff;
+    margin: 0;
+}
